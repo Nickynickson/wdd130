@@ -4,7 +4,7 @@ Fonts are separated by a | */
 @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Roboto&display=swap');
 :root {
   /* change the values below to your colors from your palette */
-  --primary-color: #A47148   ;
+  --primary-color: #A47148 ;
   --secondary-color: #D4A276 ;
   --accent1-color: #E7BC91;
   --accent2-color: #FFEDD8;
