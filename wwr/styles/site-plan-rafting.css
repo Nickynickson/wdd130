@@ -7,9 +7,9 @@ body {
 }
 
 :root {
-    --primary-color:#faedcd;
+    --primary-color:#ccd5ae;
     --secondary-color: #e9edc9;
-    --accent1-color: #ccd5ae;
+    --accent1-color: #faedcd;
     --accent2-color: #d4a373;
 
     --heading-font: 'Lobster', serif;
