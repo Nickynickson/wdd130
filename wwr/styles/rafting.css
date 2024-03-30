@@ -290,7 +290,7 @@ input[type="email"] {
 }
 
 
-input[type="submit"] {
+input[type="button"] {
     width: 615px;
     color: #d4a373;
     background-color: #247b7b;
