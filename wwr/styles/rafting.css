@@ -173,6 +173,133 @@ figcaption {
 
 }
 
+.form {
+    width: 650px;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 0.5rem;
+    background-color: #e9edc9;
+    display: grid;
+    grid-gap: .5rem;
+    margin-bottom: 40px;
+}
+
+label, input, button, select, textarea {
+    font-family: Roboto, Arial, sans-serif;
+}
+
+label {
+    text-align: right;
+    padding-right: 1rem;
+}
+
+select, textarea, button {
+    width: 615px;
+    padding: 0.5rem;
+    font-size: 1.1rem;
+
+}
+
+textarea  {
+    height: 100px;
+}
+
+input[type="text"] {
+    width: 615px;
+    padding: 0.5rem;
+    font-size: 1.1rem;
+}
+
+input[type="email"] {
+    width: 615px;
+    padding: 0.5rem;
+    font-size: 1.1rem;
+}
+
+#team {
+    text-align: center;
+    font-size: 20px;
+    color: var(--nav-hover-background-color);
+}
+
+.ProfileImages {
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.ProfileImages figure {
+    width: 200px;
+    height: auto;
+    object-fit: cover;
+}
+
+.Employee1 {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 2rem;
+    box-sizing: border-box;
+    margin-right: 10px;
+}
+
+.Employee2 {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 2rem;
+    box-sizing: border-box;
+    margin-right: 10px;
+}
+
+.Employee3 {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 2rem;
+    box-sizing: border-box;
+}
+
+.Employee1 img{
+    border-radius: 2rem;
+    width: 200px;
+    height: 200px;
+}
+
+.Employee2 img{
+    border-radius: 2rem;
+    width: 200px;
+    height: 200px;
+}
+
+.Employee3 img{
+    border-radius: 2rem;
+    width: 200px;
+    height: 200px;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.info_1 {
+    margin-bottom: 50px;
+}
+
+
+input[type="submit"] {
+    width: 615px;
+    color: #d4a373;
+    background-color: #247b7b;
+    border: none;
+    border-radius: .5rem;
+    padding: 1rem;
+    font-size: 1.2rem;
+}
+
 footer {
     display: flex;
     background-color: var(--accent1-color);;
@@ -187,10 +314,3 @@ footer p{
     margin-left: 250px;
     text-align: center;
 }
-
-
-
-
-
-
-
