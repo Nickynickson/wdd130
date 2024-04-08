@@ -437,6 +437,10 @@ main section img{
     padding: 8px;
 }
 
+.form_s a {
+    text-decoration: none;
+}
+
 .form_s input {
     width: 240px;
     height: 35px;
