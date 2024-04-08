@@ -416,7 +416,7 @@ main section img{
 
 .form_s{
     width: 250px;
-    height: 350px;
+    height: 450px;
     background: linear-gradient(rgb(0,0,0,0.8)50%,rgb(0,0,0,0.8)50%);
     position: absolute;
     top: 1200px;
@@ -433,8 +433,14 @@ main section img{
     font-size: 22px;
     background-color: #ffff;
     border-radius: 10px;
-    margin: 2px;
+    margin: 10px;
     padding: 8px;
+}
+
+.form_s label {
+    text-align: right;
+    padding-right: 1rem;
+    color: #ffff;
 }
 
 .form_s a {
